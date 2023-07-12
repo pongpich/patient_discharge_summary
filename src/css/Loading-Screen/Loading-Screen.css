@@ -1,0 +1,132 @@
+
+.div-mask-loading {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 109;
+  width: 100%;
+  height: auto;
+}
+
+.div-mask-loading-group {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 115;
+  width: 0;
+  height: auto;
+  animation-name: animate-system-full-width;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  box-shadow: 4px 4px 12px black;
+}
+
+.div-loading-screen {
+  position: fixed;
+  top: 35%;
+  left: 0;
+  right: 0;
+  z-index: 110;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 6px;
+  box-shadow: 1px 1px 8px rgb(230, 230, 230);
+  animation-name: animate-flow;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+}
+
+.system-list-group-item {
+  background-color: rgb(4, 169,245);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 6px;
+  box-shadow: 0px 2px 8px rgb(230, 230, 230);
+}
+
+.system-list-group-item:hover {
+  background-color: rgb(4, 169, 245);
+}
+
+.system-header {
+  margin-left: 20px;
+  color: white;
+  text-shadow: 2px 2px 8px grey;
+}
+
+.system-list-text-group {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.div-loading-group-text {
+  width: 250px;
+  margin-top: 8px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.loading-frame {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+.loading-image {
+  background-image: url("../images/loading-icon/Single-Gear-3s.gif");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loading-group-text {
+  font-size: 28px;
+}
+
+@media only screen and (min-width: 0px) {
+  .div-loading-screen {
+    left: 30%;
+    right: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .div-loading-screen {
+    left: 32.5%;
+    right: 32.5%;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .div-loading-screen {
+    left: 40%;
+    right: 40%;
+  }
+}
+
+@keyframes animate-system-half-width {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes animate-system-full-width {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}

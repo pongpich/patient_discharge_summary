@@ -1,0 +1,71 @@
+
+.div-mask-background {
+  background-color: rgb(244, 247, 250);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
+.div-background-sign-in {
+  background-image: url("../images/background-image/bubble_gif.gif");
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.div-sign-in {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: auto;
+  padding: 1%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgb(230, 230, 230);
+}
+
+.sign-in-header {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-sign-in {
+  float: right;
+}
+
+@media only screen and (min-width: 0px) {
+  .div-sign-in {
+    left: 30%;
+    right: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .div-sign-in {
+    left: 32.5%;
+    right: 32.5%;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .div-sign-in {
+    left: 40%;
+    right: 40%;
+  }
+}

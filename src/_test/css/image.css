@@ -1,0 +1,15 @@
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: absolute;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  /* cursor: none; */
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+}

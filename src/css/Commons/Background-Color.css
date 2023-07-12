@@ -1,0 +1,300 @@
+
+.color-white {
+  color: rgb(255, 255, 255);
+}
+
+.color-grey {
+  color: grey;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-yellow {
+  color: #e6e600;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.color-lowblue {
+  color: rgb(0, 125, 255);
+}
+
+.color-cyan {
+  color: cyan;
+}
+
+.color-lowblue2 {
+  color: #b3ebff;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-blackwhite {
+  color: rgb(75, 75, 75);
+}
+
+.color-greenblue {
+  color: rgb(0, 255, 224);
+}
+
+.color-violet {
+  color: rgb(191, 126, 255);
+}
+
+/*---------------
+///// FIXED /////
+---------------*/
+
+.color-ember-fixed {
+  color: #ffd633;
+}
+
+.color-green-fixed {
+  color: #5cd65c;
+}
+
+.color-violet-fixed {
+  color: #990099;
+}
+
+.color-purple-fixed {
+  color: #cc00cc;
+}
+
+.color-blue-fixed {
+  color: #04a9f5;
+}
+
+.color-gray-fixed {
+  color: #c1c1c1;
+}
+
+/*---------------
+////// SW //////
+---------------*/
+
+.bg-color-ember-sw {
+  background-color: #ffd633;
+  color: white;
+}
+
+.bg-green-fixed {
+  background-color: #5cd65c;
+  color: white;
+}
+
+.bg-color-green-sw {
+  background-color: #5cd65c;
+}
+
+.bg-color-violet-sw {
+  background-color: #990099;
+  color: white;
+}
+
+.bg-violet-sw {
+  background-color: white;
+  color: #990099;
+  border: 1px solid #990099;
+  border-radius: 6px;
+}
+.bg-violet-sw:focus {
+  outline: none;
+}
+
+.bg-violet-fixed {
+  background-color: #990099;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.bg-violet-fixed:focus {
+  outline: none;
+}
+
+.bg-violet-fixed {
+  background-color: #990099;
+  border: none;
+  border-radius: 6px;
+}
+
+.bg-color-purple-sw {
+  background-color: #cc00cc;
+  color: white;
+}
+
+.bg-purple-sw {
+  background-color: white;
+  color: #cc00cc;
+  border: 1px solid #cc00cc;
+  border-radius: 6px;
+}
+.bg-purple-sw:focus {
+  outline: none;
+}
+
+.bg-purple-fixed {
+  background-color: #cc00cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.bg-purple-fixed:focus {
+  outline: none;
+}
+
+.bg-blue-fixed {
+  background-color: #04a9f5;
+  color: white;
+}
+
+.bg-color-blue-sw {
+  background-color: #04a9f5;
+}
+
+.bg-greenblue-fixed {
+  background-color: rgb(0, 255, 224);
+  color: white;
+}
+
+.bg-color-greenblue-sw {
+  background-color: rgb(0, 255, 224);
+}
+
+.bg-patient-header-sw {
+  background-image: linear-gradient(180deg, #404040 50%, #006680 50%);
+}
+
+.bg-color-lowblue2 {
+  background-color: #b3ebff;
+}
+
+/*---------------
+////// BORDER SW //////
+---------------*/
+
+.border-greenblue-sw {
+  border: 2px solid rgb(0, 255, 224);
+}
+
+.border-green-sw {
+  border: 2px solid #5cd65c;
+}
+
+.border-purple-sw {
+  border: 2px solid #cc00cc;
+}
+
+.border-ember-sw {
+  border: 2px solid #ffd633;
+}
+
+.border-blue-sw {
+  border: 2px solid #04a9f5;
+}
+
+.border-bottom-gray-sw {
+  border-bottom: 4px solid #f2f2f2;
+}
+
+.border-bottom-ember-sw {
+  border-bottom: 2px solid #ffd633;
+}
+
+.border-right-ember-sw {
+  border-right: 4px solid #ffd633;
+}
+
+/*---------------
+////// FONT SW //////
+---------------*/
+
+.font-violet-bold-sw {
+  color: #990099;
+  font-weight: bold;
+}
+
+/*---------------
+////// ORDERSHEET //////
+---------------*/
+
+.color-blue-ordersheet {
+  color: rgb(60, 130, 210);
+}
+
+.color-blue-ordersheet-2 {
+  color: rgb(125, 165, 236);
+}
+
+.bg-blue-ordersheet {
+  background-color: rgb(185, 201, 253);
+  color: white;
+}
+
+.bg-blue-ordersheet-2 {
+  background-color: rgb(225, 255, 255);
+}
+
+.bg-blue-ordersheet-2-fixed {
+  background-color: rgb(225, 255, 255);
+  color: white;
+}
+
+.border-blue-ordersheet {
+  border: 2px solid rgb(185, 201, 253);
+}
+
+.border-gray-ordersheet {
+  border: 2px solid rgb(243, 243, 243);
+}
+
+.table-border-ordersheet {
+  border-collapse: collapse;
+  border: 2px solid rgb(230, 230, 230);
+}
+
+/*---------------
+////// IMAGE EMR //////
+---------------*/
+
+.box-shadow-emr {
+  box-shadow: 0px 2px 8px rgb(230, 230, 230);
+}
+
+.body-emr {
+  border-top: 2px solid #04a9f5;
+  border-left: 2px solid #04a9f5;
+  border-right: 2px solid #04a9f5;
+  /* border-bottom: 1px solid #04a9f5; */
+  border-bottom: none;
+  border-radius: 0px;
+}
+
+.footer-emr {
+  border-left: 2px solid #04a9f5;
+  border-right: 2px solid #04a9f5;
+  border-bottom: 2px solid #04a9f5;
+}
+
+/*---------------
+////// UNORDER LIST SW //////
+---------------*/
+
+.li-violet-bullet-sw {
+  list-style: blue;
+  color: blue;
+}
+
+ul li:before {
+  color: blue;
+}

@@ -1,0 +1,50 @@
+
+.navbar-header-container {
+  /*box-shadow: 0px 2px 1px 2px #000;*/
+  background-color: rgb(244, 247, 250);
+}
+
+.navbar-brand {
+  color: rgb(0, 0, 102);
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+.glyphicon {
+  margin-left: 20px;
+}
+
+.li-label {
+  position: relative;
+  right: 20px;
+  font-size: 24px;
+  color: rgb(0, 0, 102);
+}
+
+.li-user-icon {
+  margin-top: 5px;
+}
+
+.navbar-secondary {
+  background-color: rgb(244, 247, 250);
+  /*background-color: rgba(0, 191, 255, 0.3);*/
+  /*background-image: linear-gradient(to bottom right, #33ccff, #ccf2ff);*/
+  /*box-shadow: 0px 4px 12px 4px rgba(128, 223, 255, 0.5);*/
+  /*background-image: linear-gradient(to bottom right, #3366ff, #99b3ff);*/
+  /*box-shadow: 0px 4px 12px 4px rgba(51, 102, 255, 0.5);*/
+  /*box-shadow: 0px 1px 12px 1px rgba(0, 0 ,0 , 0.5);*/
+}
+
+.nav-label {
+  position: relative;
+  left: 20px;
+  color: rgb(26, 26, 26);
+  /*text-shadow: 1px 3px 8px #000;*/
+}
+
+.navbar-footer {
+  height: 10px;
+  width: 100%;
+}
